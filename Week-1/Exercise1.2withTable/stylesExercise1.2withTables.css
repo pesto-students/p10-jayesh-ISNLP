@@ -1,0 +1,64 @@
+/* .CattyBoardIntro {
+    background-color: rgb(43, 53, 53);
+    font-family: Lato;
+    color: white;
+    margin: 5px;
+    padding: 10px;
+} */
+
+#table1{
+  background-color: hsl(60, 1%, 31%);
+  color: white;
+  width: 100%;
+  font-family: Lato;
+  padding-left: 40px;
+  margin-left: 20px;
+  margin-top: 0px;
+}
+
+#table2{
+  width: 100%;
+  font-family: Lato;
+  padding-left: 40px;
+}
+
+#table3{
+  background-color: hsl(225, 78%, 65%);
+  color: white;
+  width: 100%;
+  font-family: Lato;
+}
+
+#text {
+    margin-down: 10px;
+    padding: 10px;
+    font-family: Lato;
+}
+
+.sidenav {
+    height: 575px; /* Full-height: remove this if you want "auto" height */
+    width: 40px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: rgb(187, 179, 179); /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    text-align:center;
+    
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
