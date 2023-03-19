@@ -1,0 +1,106 @@
+body{
+    color: white;
+    font-family: Lato;
+    margin: 0 200px 0 0;
+}
+
+.top-container{
+    background: hsl(60, 1%, 31%);
+    display: flex;
+    height: auto;
+    margin-left: 30px;
+}
+
+.top-left-container{
+    text-align: left;
+}
+
+.top-right-container{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: -webkit-fill-available;
+}
+
+.top-right-container-middle-text{
+    margin: 20px 0px 80px 0;
+}
+.topRightIcons, .la, .las {
+    color: white;
+}
+
+.topIcons, .la, .las {
+    font-size:20px;
+    color:black;
+    /* line-height: 2; */
+    padding: 15px;
+}
+
+.action-text{
+    margin: 0 15px 0 5px;
+}
+
+.middle-text{
+    margin: 0px;
+}
+
+img{
+    margin: 20px;
+}
+
+/* .la{
+    color:white;
+    font-size:20px;
+} */
+
+.sidenav {
+    height: 575px; /* Full-height: remove this if you want "auto" height */
+    width: 40px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: rgb(187, 179, 179); /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    text-align:center;    
+  }
+
+  #table2{
+    width: 100%;
+    color: black;
+    font-size: 14px;
+    padding-left: 40px;
+  }
+
+  td{
+    padding: 10px;
+  }
+
+  .table-btn{
+    border: 1px solid #2476d3;
+    color: #2476d3;
+    font-size: 14px;
+    padding: 5px;
+    text-decoration: none;
+  }
+
+  .bottom-container{
+    background-color: hsl(225, 78%, 65%);
+    display: flex;
+    height: auto;
+    margin-left: 30px;
+    margin-top: 200px;
+    color: white;
+}
+
+.bottom-container-text{
+    position: absolute;
+    top: auto;
+    margin-top: -167px;
+    margin-left: 80px;
+}
+
+.icon-list{
+    align-self: center;
+    margin-left: 400px;
+}
