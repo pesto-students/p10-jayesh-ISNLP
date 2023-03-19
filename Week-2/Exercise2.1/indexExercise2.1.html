@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesExercise2.1.css">
+    <title>Document</title>
+</head>
+<body>    
+    <div class="header">
+        <h2>Exercise 2.1 - Using a CSS Floating Template</h2>
+        <p>In this exercise, a header, two colums and three rows and a footer have been created. On smaller screens, the columns will stack on top of each other.</p>
+    </div>
+    
+    <div class="row1">
+        <div class="column" style="background-color:#aaa;">
+            <article>
+                <h2>Title 1</h2>
+                <p>Summary 1: Fusce viverra, dui id pretium fringilla, quam odio rhoncus tortor, quis imperdiet ipsum turpis at odio. Vivamus velit magna, placerat eu tincidunt in, congue vitae arcu. Suspendisse pellentesque venenatis mauris, vitae sollicitudin diam finibus id. Integer at lacus massa. Donec at nulla ac neque tincidunt feugiat nec ac sapien. Nulla velit nisl, fringilla ut ex eget, sollicitudin ornare ipsum. Nullam eu nisl nec lorem scelerisque imperdiet et ac sem. Suspendisse luctus mollis purus, ac luctus nibh porta nec. Morbi sagittis luctus lacinia.</p>
+                <a href="#">Link 1</a>
+            </article>
+        </div>
+        <div class="column" style="background-color:#bbb;">
+            <article>
+                <h2>Title 2</h2>
+                <p>Summary 2: Suspendisse ornare quam a est ornare, vitae tristique tortor bibendum. Quisque sed ipsum ultrices, consequat erat sit amet, vulputate metus. Nulla facilisi. Nulla ultricies risus ut nibh tempor, et laoreet erat dapibus. Mauris tempor augue arcu, a vulputate nibh semper in. Aliquam eu est diam. Proin in facilisis sem. Proin a sollicitudin odio, non egestas diam. Curabitur ac pulvinar leo. Nam pulvinar euismod dui, nec dignissim dui efficitur at. In hac habitasse platea dictumst.</p>
+                <a href="#">Link 2</a>
+            </article>
+        </div>
+    </div>
+    
+    <div class="row2">
+        <div class="column" style="background-color:#ddd;">
+            <article>
+                <h2>Title 3</h2>
+                <p>Summary 3: Morbi ultricies nec lectus nec posuere. Praesent auctor ante quis purus sodales, nec tincidunt mi mollis. Suspendisse in hendrerit mi. Nam eu erat nec erat semper porta. Donec accumsan lectus vitae risus euismod, ut commodo purus aliquet. Donec iaculis, libero a mattis euismod, lorem diam rhoncus ipsum, quis ullamcorper erat erat ut quam.</p>
+                <a href="#">Link 3</a>
+            </article>
+        </div>
+        <div class="column" style="background-color:#ccc;">
+            <article>
+                <h2>Image 1</h2>
+                <img class='image' src="assets2.1/projects1.jpg" >
+                <p>Description of Image 1</p>
+                <a href="#">Link 4</a>
+            </article>
+        </div>
+        
+    </div>
+    <div class="row3">
+        <div class="column" style="background-color:#eee;">
+            <h2>Image 2</h2>
+            <img class='image' src="assets2.1/projects2.jpg" height="150px">
+            <p>Description of Image 2</p>
+            <a href="#">Link 5</a>
+        </div>
+        <div class="column" style="background-color:#fff;">
+            <article>
+                <h2>Title 4</h2>
+                <p>Summary 4: Morbi ultricies nec lectus nec posuere. Praesent auctor ante quis purus sodales, nec tincidunt mi mollis. Suspendisse in hendrerit mi. Nam eu erat nec erat semper porta. Donec accumsan lectus vitae risus euismod, ut commodo purus aliquet. Donec iaculis, libero a mattis euismod, lorem diam rhoncus ipsum, quis ullamcorper erat erat ut quam.</p>
+                <a href="#">Link 6</a>
+            </article>
+        </div>
+    </div>
+
+    <div class="footer">
+      <p>Note : More columns and rows can be added as required</p>
+    </div>
+    
+    <form action="http://localhost:8800/form" method ="POST" enctype="multipart/form-data">
+        
+        <h1 tabindex="0">Please Enter Your Details</h1>
+            <div class="titles">
+                <label for="">Title</label>
+                <input id="mr" type="radio" name="mr" value="mr" checked>
+                <label for="mr">Mr </label>
+                <input type="radio" name="mrs" value="mrs">
+                <label for="mrs">Mrs </label>
+                <input class="" type="radio" name="title" value="miss">
+                <label for="miss">Miss </label>
+            </div>
+            <br><br>
+            <label>First Name<input type="text" required></label>
+            <br><br>
+            <label>Last Name<input type="text" required></label>
+            <br><br>
+            <label>Email<input type="email" pattern=".*@gmail.com" required></label>
+            <br><br>
+            <label>Phone Number<input type="tel" required></label>
+            <br><br>
+            <label>Password:<input required type="password" name="username" required> </label>
+            <br><br>
+            <label>Confirm Your Password:<input required type="password" name="username" required> </label>
+            <br><br>
+            <label for="country">Country</label>
+            <select id="country" name="cars">
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+                <option value="india">India</option>
+                <option value="germany">Germany</option>
+            </select>
+            <br><br>
+            <fieldset>
+                <legend>Optional : Please Enter Your Address Below</legend>
+                <label>House No <input type="text"></label>
+                <label>Street <input type="text"></label>
+                <label>City <input type="text"></label>
+                <label>State <input type="text"></label>
+                <label>Pin Code <input type="text"></label>
+                <label>Country <input type="text"></label>
+            </fieldset>
+            <br><br>
+            <label>Attach supporting pictures, if any:<input type="file" accept=".jpg"> </label>
+            <br><br>
+            <label><input class="" type="checkbox" name="" value="" required> I agree to the <a href="#">terms and conditions</a></label>
+            <br><br>
+            <input type="submit" class="submit_btn" name="signup" value="Sign up">
+    </form>
+</body>
+</html>

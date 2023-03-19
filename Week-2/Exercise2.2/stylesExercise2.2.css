@@ -1,0 +1,66 @@
+h1, p{
+    font-size: 26px;
+    text-align: center;
+}
+
+.main{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    position: relative;
+}
+
+.rectangle{
+    height: 200px;
+    width: 200px;
+    transition: 3s all;
+}
+
+.red{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.main:hover .red{ 
+    transform: rotate(90deg);
+    transform-origin: top left;
+}
+
+.yellow{
+    background-color: yellow;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+
+.main:hover .yellow{ 
+    transform: rotate(-90deg);
+    transform-origin: top right;
+}
+
+.blue{
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.main:hover .blue{
+    transform: rotate(-90deg);
+    transform-origin: bottom left;
+}
+
+.green{
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.main:hover .green{
+    transform: rotate(90deg);
+    transform-origin: bottom right;
+}
